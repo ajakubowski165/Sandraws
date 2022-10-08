@@ -9,7 +9,6 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Allura', cursive;
 }
 
 
@@ -22,18 +21,13 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    overflow: hidden;
 }
 
-h1{
-    font-size: 150px;
+h1, h2{
     color:var(--purple);
 }
 
-h2{
-    font-size:20px;
-    color:var(--purple);
-}
+
 
 a{
     font-family: "Century Gothic";
@@ -42,17 +36,18 @@ a{
 }
 
 .container{
-    width:50%;
-    height:60%;
+    font-family: 'Allura', cursive;
+    width:800px;
+    height:450px;
     background:linear-gradient(to right top,rgba(114, 56, 177, 0.648), rgba(165, 106, 213, 0.75));
     border-radius:100px;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     align-items: center;
     text-align: center;
 }
 
-.sanart{
+.sandraws{
+    font-size:150px;
     margin-top:100px;
     margin-bottom: -20px;
     -webkit-animation:rightToCenter 3s;
@@ -91,6 +86,7 @@ a{
     overflow:hidden;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 1000;
     transition: all 1s ease;
 }
 
